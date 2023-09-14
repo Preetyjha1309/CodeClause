@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    cursor: pointer;
+}
+
+#playlist li:hover {
+    background-color: #f2f2f2;
+}
